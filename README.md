@@ -17,3 +17,21 @@ Here is an overview of the concepts:
 - Form Validation and Accessibility: How to do server-side form validation and tips for improving accessibility.
 - Authentication: How to add authentication to your application using NextAuth.js and Middleware.
 - Metadata: How to add metadata and prepare your application for social sharing.
+
+## Next JS Project Concepts
+Looking at the terms, conventions and best practices of a Next JS project
+
+### Starting a project
+Initialize a neew project using this command and select your preference from the selections provided by the prompts
+
+`npx create-next-app@latest`
+
+### Routing
+- NextJS has a file-system based routing system
+- URLs you can access in your browser are determined by how you organize your files and folders in your code.
+- Not all files or folders become routes
+
+#### Routing Convetions
+1. All routes must live inside the app folder
+2. Route files must be named either page.js or page.tsx
+3. Each folder represents a segment of the URL path
